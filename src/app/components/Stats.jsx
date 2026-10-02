@@ -14,7 +14,8 @@ const statColors = {
   diversity: "#673ab7",
 };
 
-const pixelFont = "'Press Start 2P', Inconsolata, monospace"; // Load in your app
+// Pixel font with monospace fallbacks
+const pixelFont = "'Press Start 2P', Inconsolata, monospace";
 
 const StatsComponent = () => {
   const { metrics, previousMetrics } = useContext(GameContext);
