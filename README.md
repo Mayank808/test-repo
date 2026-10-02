@@ -33,3 +33,9 @@ Stats
 1. In `EquiStart` directory, run `npm install`.
 2. Run `npm run dev`.
 3. Open [http://localhost:3000](http://localhost:3000) in your browser.
+
+### Scripts
+- `npm run dev` – start the dev server (Turbopack)
+- `npm run build` – create a production build
+- `npm run start` – serve the production build
+- `npm run lint` – run ESLint
